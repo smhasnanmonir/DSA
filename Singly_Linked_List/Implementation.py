@@ -113,11 +113,3 @@ def delete_at_end(head):
 
 Head = delete_at_end(Head)
 display(Head)
-
-#delete a node at a specific position
-def delete_at_position(head,position):
-    if head is None:
-        return None
-    if position == 0:
-        return head.next
-    curr
