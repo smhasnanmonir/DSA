@@ -29,3 +29,12 @@ def insert_at_first(head,tail,val):
 head1,tail = insert_at_first(Head,Tail,3)
 
 display1(head1)
+
+def insert_at_last(head, tail, val):
+  new_node = doubly_linked2(val,prev=tail)
+  head.next = new_node
+  return head, new_node
+
+head3,tail = insert_at_last(Head,Tail,7)
+
+display1(head3)
